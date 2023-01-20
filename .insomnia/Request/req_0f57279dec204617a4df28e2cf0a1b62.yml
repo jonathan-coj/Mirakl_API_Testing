@@ -1,0 +1,23 @@
+_id: req_0f57279dec204617a4df28e2cf0a1b62
+type: Request
+parentId: fld_72cb5ae86ea84d82862a5da832ead4a1
+modified: 1674203246104
+created: 1674203246104
+url: "{{URL}}/api/payment/debit"
+name: PA11 - List pending order debits
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+authentication: {}
+metaSortKey: -1674203246104
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

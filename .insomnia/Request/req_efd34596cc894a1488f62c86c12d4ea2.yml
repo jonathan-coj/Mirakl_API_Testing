@@ -1,0 +1,34 @@
+_id: req_efd34596cc894a1488f62c86c12d4ea2
+type: Request
+parentId: fld_6027b204fc8642e6beb8e5369bda9e17
+modified: 1674203246370
+created: 1674203246370
+url: "{{URL}}/api/invoices/confirm"
+name: IV07 - Confirm the payment of accounting documents
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |
+    {
+      "accounting_documents" : [ {
+        "invoice_id" : "9355049",
+        "amount" : "120.50",
+        "currency_iso_code" : "EUR",
+        "reference" : "ref_01",
+        "transaction_date" : "2018-10-15T15:20:09Z"
+      } ]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1674203246370
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

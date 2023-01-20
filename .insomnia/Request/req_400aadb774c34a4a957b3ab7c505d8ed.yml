@@ -1,0 +1,23 @@
+_id: req_400aadb774c34a4a957b3ab7c505d8ed
+type: Request
+parentId: fld_bd7f22e2a1d54a15aef8d30adef83648
+modified: 1674203246004
+created: 1674203246004
+url: "{{URL}}/api/channels"
+name: CH11 - List all enabled channels
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+authentication: {}
+metaSortKey: -1674203246004
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

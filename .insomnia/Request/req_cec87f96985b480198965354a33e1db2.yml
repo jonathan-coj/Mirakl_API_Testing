@@ -1,0 +1,23 @@
+_id: req_cec87f96985b480198965354a33e1db2
+type: Request
+parentId: fld_2cd336129fa24073942925f1355dedaa
+modified: 1674203245926
+created: 1674203245926
+url: "{{URL}}/api/categories/synchros/:synchro/error_report"
+name: CA03 - Get the error report file for a Marketplace categories synchronization
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/octet-stream
+authentication: {}
+metaSortKey: -1674203245926
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

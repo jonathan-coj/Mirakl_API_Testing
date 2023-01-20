@@ -1,0 +1,23 @@
+_id: req_bfe85b1c43ee45a7808cf2503be37712
+type: Request
+parentId: fld_c70ba4a5e6a945cd8c654111d1290403
+modified: 1674203245758
+created: 1674203245758
+url: "{{URL}}/api/shops/:shop/evaluations"
+name: S03 - List evaluations of a shop
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+authentication: {}
+metaSortKey: -1674203245758
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

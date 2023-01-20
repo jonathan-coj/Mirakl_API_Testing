@@ -1,0 +1,41 @@
+_id: req_88129b0c5e9049f58a917053a4fb5d19
+type: Request
+parentId: fld_f4f0ebe254b94d8f9c55668b50dec334
+modified: 1674203246179
+created: 1674203246179
+url: "{{URL}}/api/offers/pricing/imports"
+name: PRI02 - Get information and statistics about an offer pricing import
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: import_id
+    value: ""
+    disabled: true
+  - name: shop_id
+    value: ""
+    disabled: true
+  - name: start_date
+    value: ""
+    disabled: true
+  - name: end_date
+    value: ""
+    disabled: true
+  - name: status
+    value: ""
+    disabled: true
+  - name: origins
+    value: ""
+    disabled: true
+headers:
+  - name: Accept
+    value: application/json
+authentication: {}
+metaSortKey: -1674203246179
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,32 @@
+_id: req_421e6da5b1fa4a5291f9b586b1c550df
+type: Request
+parentId: fld_c70ba4a5e6a945cd8c654111d1290403
+modified: 1674203245722
+created: 1674203245722
+url: "{{URL}}/api/shops/documents"
+name: S30 - List shop's documents
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: shop_ids
+    value: ""
+    disabled: true
+  - name: include_deleted
+    value: ""
+    disabled: true
+  - name: updated_since
+    value: ""
+    disabled: true
+headers:
+  - name: Accept
+    value: application/json
+authentication: {}
+metaSortKey: -1674203245722
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

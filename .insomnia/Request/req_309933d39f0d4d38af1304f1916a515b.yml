@@ -1,0 +1,23 @@
+_id: req_309933d39f0d4d38af1304f1916a515b
+type: Request
+parentId: fld_bd7f22e2a1d54a15aef8d30adef83648
+modified: 1674203245952
+created: 1674203245952
+url: "{{URL}}/api/shipping/logistic_classes"
+name: SH31 - List all logistic classes
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+authentication: {}
+metaSortKey: -1674203245952
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

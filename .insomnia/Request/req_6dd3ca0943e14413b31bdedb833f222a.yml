@@ -1,0 +1,26 @@
+_id: req_6dd3ca0943e14413b31bdedb833f222a
+type: Request
+parentId: fld_bd7f22e2a1d54a15aef8d30adef83648
+modified: 1674203245979
+created: 1674203245979
+url: "{{URL}}/api/offers/states"
+name: OF61 - List offer conditions
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: active
+    value: ""
+    disabled: true
+headers:
+  - name: Accept
+    value: application/json
+authentication: {}
+metaSortKey: -1674203245979
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

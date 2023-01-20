@@ -1,0 +1,40 @@
+_id: req_13507f7a9b2f445b850b2278e6cbea95
+type: Request
+parentId: fld_a3922f5be6154bbca2fb6f750cb204b5
+modified: 1674203246274
+created: 1674203246274
+url: "{{URL}}/api/shipments/delete"
+name: ST06 - Delete shipments in shipping status
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |
+    {
+      "shipments": [
+        {
+          "id": "e2055970-dd6c-4d66-b005-096d6e6e0f30"
+        },
+        {
+          "id": "89174558-2845-44ef-bd57-78db027947f7"
+        },
+        {
+          "id": "14d134a1-eb3a-442c-b16c-05a35486d1bf"
+        }
+      ]
+    }
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1674203246274
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

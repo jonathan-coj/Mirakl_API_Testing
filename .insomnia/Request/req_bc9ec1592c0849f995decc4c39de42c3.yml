@@ -1,0 +1,49 @@
+_id: req_bc9ec1592c0849f995decc4c39de42c3
+type: Request
+parentId: fld_0846b43d860e424283801c4ec99cb85d
+modified: 1674203246164
+created: 1674203246164
+url: "{{URL}}/api/orders/async-export"
+name: OR13 - Export orders asynchronously
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |2
+        {
+            "channel_codes": [
+                "US"
+            ],
+            "fulfillment_center_codes": "fulfillment_center_codes_001",
+            "items_per_chunk": 10000,
+            "megabytes_per_chunk": 100,
+            "only_null_channel": false,
+            "order_state_codes": [
+                "WAITING_ACCEPTANCE",
+                "SHIPPING"
+            ],
+            "order_tax_mode": "TAX_INCLUDED",
+            "shop_ids": [
+                2310
+            ],
+            "start_date": "2022-01-01T00:00:00.000Z",
+            "end_date": "2023-01-01T00:00:00.000Z",
+            "start_update_date": "2019-08-20T14:58:22.460Z",
+            "end_update_date": "2020-08-19T14:58:22.460Z",
+            "waiting_tax_confirmation": false
+        }
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1674203246164
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

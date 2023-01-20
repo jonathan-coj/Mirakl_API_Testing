@@ -1,0 +1,32 @@
+_id: req_18db7a4c731a4f5d82b3fcd270a0fb14
+type: Request
+parentId: fld_2cd336129fa24073942925f1355dedaa
+modified: 1674203245947
+created: 1674203245947
+url: "{{URL}}/api/categories/synchros"
+name: "CA01 - Synchronize Marketplace categories from the operator information
+  system with Mirakl "
+description: ""
+method: POST
+body:
+  params:
+    - type: file
+      name: file
+      disabled: true
+      fileName: null
+  mimeType: multipart/form-data
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Content-Type
+    value: multipart/form-data
+authentication: {}
+metaSortKey: -1674203245947
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

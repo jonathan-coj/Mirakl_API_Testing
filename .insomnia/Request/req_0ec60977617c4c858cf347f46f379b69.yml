@@ -1,0 +1,99 @@
+_id: req_0ec60977617c4c858cf347f46f379b69
+type: Request
+parentId: fld_f4f0ebe254b94d8f9c55668b50dec334
+modified: 1674203246211
+created: 1674203246211
+url: "{{URL}}/api/offers"
+name: OF24 - Create, update, or delete offers
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |
+    {
+      "offers": [
+        {
+          "allow_quote_requests": false,
+          "available_ended": "2019-05-29T22:00:00Z",
+          "available_started": "2019-03-01T22:00:00Z",
+          "description": "Offer for product MKP100000000154824",
+          "discount": {
+            "end_date": "2019-05-31T22:00:00Z",
+            "price": 49,
+            "ranges": [
+              {
+                "price": 45,
+                "quantity_threshold": 5
+              }
+            ],
+            "start_date": "2019-03-31T22:00:00Z"
+          },
+          "internal_description": "Offer for product MKP100000000154824",
+          "leadtime_to_ship": 5,
+          "logistic_class": "M",
+          "max_order_quantity": 3,
+          "min_order_quantity": 1,
+          "min_quantity_alert": 2,
+          "offer_additional_fields": [
+            {
+              "code": "ecotax",
+              "value": "20"
+            }
+          ],
+          "package_quantity": "2",
+          "price": 50,
+          "price_additional_info": "Apply Discount prices",
+          "all_prices": [
+            {
+              "channel_code": "US",
+              "discount_end_date": "2019-04-29T22:00:00Z",
+              "discount_start_date": "2019-04-01T22:00:00Z",
+              "unit_discount_price": "49",
+              "unit_origin_price": 50,
+              "volume_prices": [
+                {
+                  "quantity_threshold": 5,
+                  "unit_discount_price": 45,
+                  "unit_origin_price": 48
+                }
+              ]
+            }
+          ],
+          "product_id": "9400016774345",
+          "product_id_type": "EAN",
+          "product_tax_code": "tax",
+          "eco_contributions": [
+            {
+              "producer_id": "ProducerID1",
+              "eco_contribution_amount": 3.59
+            },
+            {
+              "producer_id": "ProducerID2",
+              "eco_contribution_amount": 0.99
+            }
+          ],
+          "quantity": "5000",
+          "shop_sku": "Offer_SKU_001",
+          "state_code": "11",
+          "update_delete": "update"
+        }
+      ]
+    }
+parameters:
+  - name: shop
+    value: ""
+    disabled: false
+headers:
+  - name: Accept
+    value: application/json
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1674203246211
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

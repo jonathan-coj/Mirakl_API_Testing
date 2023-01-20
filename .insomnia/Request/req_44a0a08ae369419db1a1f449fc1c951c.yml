@@ -1,0 +1,23 @@
+_id: req_44a0a08ae369419db1a1f449fc1c951c
+type: Request
+parentId: fld_bd7f22e2a1d54a15aef8d30adef83648
+modified: 1674203245958
+created: 1674203245958
+url: "{{URL}}/api/platform/configuration"
+name: PC01 - List platform configurations
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+authentication: {}
+metaSortKey: -1674203245958
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

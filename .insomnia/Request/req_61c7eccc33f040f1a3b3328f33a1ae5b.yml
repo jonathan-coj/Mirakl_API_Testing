@@ -1,0 +1,93 @@
+_id: req_61c7eccc33f040f1a3b3328f33a1ae5b
+type: Request
+parentId: fld_0846b43d860e424283801c4ec99cb85d
+modified: 1674203246174
+created: 1674203246174
+url: "{{URL}}/api/orders"
+name: OR04 - Patch update orders
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |
+    {
+      "orders":
+      [
+        {
+            "order_id": "Order_00014",
+            "customer": {
+                "accounting_contact": {
+                    "customer_id": "Customer_id_002"
+                },
+                "billing_address": {
+                    "city": "New York",
+                    "company": "simple customer",
+                    "complementary": null,
+                    "country": "USA",
+                    "country_iso_code": "USA",
+                    "phone_secondary": "213-509-6995",
+                    "state": "Manhattan",
+                    "street_1": "113 MacDougal Street",
+                    "street_2": "1st floor",
+                    "zip_code": "NY 10012"
+                },
+                "delivery_contact": {
+                    "customer_id": "Customer_id_003"
+                },
+                "organization": {
+                    "address": {
+                        "city": "New York",
+                        "country_iso_code": "USA",
+                        "state": "Manhattan",
+                        "street_1": "113 MacDougal Street",
+                        "street_2": "1st floor",
+                        "zip_code": "NY 10012"
+                    },
+                    "identification_number": "982837446",
+                    "name": "Limark Company Inc.",
+                    "tax_identification_number": "96-25472919"
+                }
+            },
+            "invoice_details": {
+                "document_details": [
+                    {
+                        "format": "PDF"
+                    },
+                    {
+                        "format": "cXML"
+                    }
+                ],
+                "payment_terms": {
+                    "days": 10,
+                    "type": "NET"
+                }
+            },
+            "payment_destination": {
+                "@type": "IBAN",
+                "payment_reference": "TX1000",
+                "iban": "123456789"
+            },
+            "payment_workflow": "PAY_ON_ACCEPTANCE",
+            "shipping_deadline": "2020-03-20T16:38:31.131Z",
+            "shop_statistics": {
+                "excluded": true,
+                "reason": "Reason for exclusion"
+             }
+        }
+      ]
+    }
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1674203246174
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

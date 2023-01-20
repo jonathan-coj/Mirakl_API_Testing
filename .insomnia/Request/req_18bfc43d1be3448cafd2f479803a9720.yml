@@ -1,0 +1,71 @@
+_id: req_18bfc43d1be3448cafd2f479803a9720
+type: Request
+parentId: fld_6027b204fc8642e6beb8e5369bda9e17
+modified: 1674203246417
+created: 1674203246417
+url: "{{URL}}/api/document-request/requests"
+name: DR11 - List accounting documents requests
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: id
+    value: ""
+    disabled: true
+  - name: document_number
+    value: ""
+    disabled: true
+  - name: date_created_from
+    value: ""
+    disabled: true
+  - name: date_created_to
+    value: ""
+    disabled: true
+  - name: last_updated_from
+    value: ""
+    disabled: true
+  - name: last_updated_to
+    value: ""
+    disabled: true
+  - name: issue_date_from
+    value: ""
+    disabled: true
+  - name: issue_date_to
+    value: ""
+    disabled: true
+  - name: state
+    value: ""
+    disabled: true
+  - name: type
+    value: ""
+    disabled: true
+  - name: issuer_type
+    value: ""
+    disabled: true
+  - name: shop_ids
+    value: ""
+    disabled: true
+  - name: entity_id
+    value: ""
+    disabled: true
+  - name: entity_type
+    value: ""
+    disabled: true
+  - name: billing_cycle_from
+    value: ""
+    disabled: true
+  - name: billing_cycle_to
+    value: ""
+    disabled: true
+headers:
+  - name: Accept
+    value: application/json
+authentication: {}
+metaSortKey: -1674203246417
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

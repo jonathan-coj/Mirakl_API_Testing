@@ -1,0 +1,23 @@
+_id: req_eb63bafdc0a34a798f62f6021044dfc1
+type: Request
+parentId: fld_bd7f22e2a1d54a15aef8d30adef83648
+modified: 1674203245957
+created: 1674203245957
+url: "{{URL}}/api/reasons"
+name: RE01 - List reasons
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+authentication: {}
+metaSortKey: -1674203245957
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

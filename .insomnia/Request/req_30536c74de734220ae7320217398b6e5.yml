@@ -1,0 +1,23 @@
+_id: req_30536c74de734220ae7320217398b6e5
+type: Request
+parentId: fld_2cd336129fa24073942925f1355dedaa
+modified: 1674203245868
+created: 1674203245868
+url: "{{URL}}/api/products/imports/:import/error_report"
+name: P44 - Get the error report file for a product import
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/octet-stream
+authentication: {}
+metaSortKey: -1674203245868
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

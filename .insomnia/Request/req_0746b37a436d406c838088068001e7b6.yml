@@ -1,0 +1,23 @@
+_id: req_0746b37a436d406c838088068001e7b6
+type: Request
+parentId: fld_2cd336129fa24073942925f1355dedaa
+modified: 1674203245923
+created: 1674203245923
+url: "{{URL}}/api/categories"
+name: CA11 - Get all Marketplace categories from your platform
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+authentication: {}
+metaSortKey: -1674203245923
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

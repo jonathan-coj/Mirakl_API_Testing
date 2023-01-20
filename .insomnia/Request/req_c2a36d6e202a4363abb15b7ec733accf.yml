@@ -1,0 +1,42 @@
+_id: req_c2a36d6e202a4363abb15b7ec733accf
+type: Request
+parentId: fld_72cb5ae86ea84d82862a5da832ead4a1
+modified: 1674203246111
+created: 1674203246111
+url: "{{URL}}/api/payment/debit"
+name: PA01 - Validate or invalidate the payment of an order
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |
+    {
+      "orders": [
+        {
+          "amount": 370,
+          "currency_iso_code": "USD",
+          "customer_id": "Customer_id_001",
+          "debit_entity": {
+            "id": "Order_00014-B",
+            "type": "ORDER"
+          },
+          "order_id": "Order_00014-B",
+          "payment_status": "OK",
+          "transaction_date": "2019-04-02T10:45:53+01",
+          "transaction_number": "Trx-00321"
+        }
+      ]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1674203246111
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

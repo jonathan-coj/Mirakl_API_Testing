@@ -1,0 +1,23 @@
+_id: req_441d03bcfc404725b2d57332788c852a
+type: Request
+parentId: fld_bd7f22e2a1d54a15aef8d30adef83648
+modified: 1674203246006
+created: 1674203246006
+url: "{{URL}}/api/anonymization/customer/:customer_id"
+name: AN01 - Anonymize customer's data
+description: ""
+method: PUT
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+authentication: {}
+metaSortKey: -1674203246006
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

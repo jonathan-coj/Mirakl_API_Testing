@@ -1,0 +1,51 @@
+_id: req_45f04785be0143d688df14d24dd4e5a3
+type: Request
+parentId: fld_c70ba4a5e6a945cd8c654111d1290403
+modified: 1674203245718
+created: 1674203245718
+url: "{{URL}}/api/shops/documents"
+name: S32 - Upload business documents to associate with a shop
+description: ""
+method: POST
+body:
+  params:
+    - type: file
+      name: files
+      disabled: true
+      fileName: null
+    - type: text
+      name: shop_documents
+      disabled: true
+      value: |
+        <body>
+            <shop_documents>
+                <shop_document>
+                    <file_name>filename1.txt</file_name>
+                    <type_code>PASSPORT</type_code>
+                </shop_document>
+                <shop_document>
+                    <file_name>filename2.txt</file_name>
+                    <type_code>ID_DOCUMENT</type_code>
+                </shop_document>
+            </shop_documents>
+        </body>
+    - type: text
+      name: shop_id
+      disabled: true
+      value: null
+  mimeType: multipart/form-data
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Content-Type
+    value: multipart/form-data
+authentication: {}
+metaSortKey: -1674203245718
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

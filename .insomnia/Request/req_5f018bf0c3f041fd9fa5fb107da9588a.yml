@@ -1,0 +1,33 @@
+_id: req_5f018bf0c3f041fd9fa5fb107da9588a
+type: Request
+parentId: fld_6027b204fc8642e6beb8e5369bda9e17
+modified: 1674203246358
+created: 1674203246358
+url: "{{URL}}/api/sellerpayment/transactions_logs/async"
+name: TL03 - Export transaction lines JSON file asynchronously
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |
+    {
+      "Transaction_date_from" : "2021-11-12T02:34:00Z",
+      "megabytes_per_chunk" : "10",
+      "shop_domain" : [ "PRODUCT" ],
+      "transaction_type" : [ "MANUAL_CREDIT" ]
+    }
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1674203246358
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

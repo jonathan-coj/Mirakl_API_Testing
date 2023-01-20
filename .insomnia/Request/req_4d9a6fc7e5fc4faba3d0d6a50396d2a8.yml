@@ -1,0 +1,23 @@
+_id: req_4d9a6fc7e5fc4faba3d0d6a50396d2a8
+type: Request
+parentId: fld_2cd336129fa24073942925f1355dedaa
+modified: 1674203245863
+created: 1674203245863
+url: "{{URL}}/api/products/imports/:import/transformed_file"
+name: P46 - Get the transformed file for a product import
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: text/csv
+authentication: {}
+metaSortKey: -1674203245863
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

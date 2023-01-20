@@ -1,0 +1,117 @@
+_id: req_a1d8fc547dff41378a918a6834352264
+type: Request
+parentId: fld_f4f0ebe254b94d8f9c55668b50dec334
+modified: 1674203246206
+created: 1674203246206
+url: "{{URL}}/api/offers/export/async"
+name: OF52 - Export offers CSV or JSON file asynchronously
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |
+    {
+      "channel_codes": [
+        "B2B"
+      ],
+      "export_type": "text/csv",
+      "last_request_date": "2021-11-12T02:34:00Z",
+      "include_fields": [
+        "active",
+        "allow-quote-requests",
+        "available-end-date",
+        "available-start-date",
+        "channels",
+        "currency-iso-code",
+        "deleted",
+        "description",
+        "discount-end-date",
+        "discount-price",
+        "discount-ranges",
+        "discount-start-date",
+        "favorite-rank",
+        "fulfillment-center-code",
+        "leadtime-to-ship",
+        "logistic-class",
+        "measurement-units",
+        "min-shipping-price",
+        "min-shipping-price-additional",
+        "min-shipping-type",
+        "min-shipping-zone",
+        "offer-id",
+        "origin-price",
+        "premium",
+        "price",
+        "price[channel=B2B]",
+        "price-additional-info",
+        "price-ranges",
+        "product-sku",
+        "professional",
+        "quantity",
+        "shop-id",
+        "shop-name",
+        "shop-sku",
+        "state-code",
+        "total-price",
+        "eco-contributions",
+        "model"
+      ],
+      "shipping_zones": [
+        "DOM1"
+      ],
+      "rename_fields": {
+        "active": "active",
+        "allow-quote-requests": "allowQuoteRequests",
+        "available-end-date": "availableEndDate",
+        "available-start-date": "availableStartDate",
+        "channels": "channels",
+        "currency-iso-code": "currencyIsoCode",
+        "deleted": "deleted",
+        "description": "description",
+        "discount-end-date": "discountEndDate",
+        "discount-price": "discountPrice",
+        "discount-ranges": "discountRanges",
+        "discount-start-date": "discountStartDate",
+        "favorite-rank": "favoriteRank",
+        "fulfillment-center-code": "fulfillmentCenterCode",
+        "leadtime-to-ship": "leadtimeToShip",
+        "logistic-class": "logisticClass",
+        "measurement-units": "measurementUnits",
+        "min-shipping-price": "minShippingPrice",
+        "min-shipping-price-additional": "minShippingPriceAdditional",
+        "min-shipping-type": "minShippingType",
+        "min-shipping-zone": "minShippingZone",
+        "offer-id": "offerId",
+        "origin-price": "originPrice",
+        "premium": "premium",
+        "price": "price",
+        "price-additional-info": "priceAdditionalinfo",
+        "price-ranges": "priceRanges",
+        "product-sku": "productSku",
+        "professional": "professional",
+        "quantity": "quantity",
+        "shop-id": "shopId",
+        "shop-name": "shopName",
+        "state-code": "stateCode",
+        "total-price": "totalPrice",
+        "eco-contributions": "ecoContributions",
+        "model": "model"
+      },
+      "items_per_chunk": 10000,
+      "megabytes_per_chunk": 100
+    }
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1674203246206
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

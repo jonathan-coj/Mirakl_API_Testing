@@ -1,0 +1,23 @@
+_id: req_356afc1de5e34c2ebe35c18a93e2d303
+type: Request
+parentId: fld_6027b204fc8642e6beb8e5369bda9e17
+modified: 1674203246403
+created: 1674203246403
+url: "{{URL}}/api/invoices/:accounting_document_id"
+name: IV02 - Download an accounting document
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/octet-stream
+authentication: {}
+metaSortKey: -1674203246403
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,21 @@
+_id: req_90aa47aec9bb456481d9aa67c63f72eb
+type: Request
+parentId: fld_bd7f22e2a1d54a15aef8d30adef83648
+modified: 1674203245950
+created: 1674203245950
+url: "{{URL}}/api/version"
+name: V01 - Health Check endpoint
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1674203245950
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

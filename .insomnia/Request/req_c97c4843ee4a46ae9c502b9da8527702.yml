@@ -1,0 +1,50 @@
+_id: req_c97c4843ee4a46ae9c502b9da8527702
+type: Request
+parentId: fld_2cd336129fa24073942925f1355dedaa
+modified: 1674203245870
+created: 1674203245870
+url: "{{URL}}/api/products/imports/:import"
+name: P43 - Upload product integration and error reports from the operator
+  information system
+description: ""
+method: POST
+body:
+  params:
+    - type: file
+      name: errorsFile
+      disabled: true
+      fileName: null
+    - type: file
+      name: errors_file
+      disabled: true
+      fileName: null
+    - type: text
+      name: integration_details
+      disabled: true
+      value: null
+    - type: file
+      name: productsFile
+      disabled: true
+      fileName: null
+    - type: file
+      name: products_file
+      disabled: true
+      fileName: null
+    - type: text
+      name: status
+      disabled: true
+      value: null
+  mimeType: multipart/form-data
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+authentication: {}
+metaSortKey: -1674203245870
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

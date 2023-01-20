@@ -1,0 +1,37 @@
+_id: req_b848692bac4446199a1e4f7dce1fa1bc
+type: Request
+parentId: fld_72cb5ae86ea84d82862a5da832ead4a1
+modified: 1674203246107
+created: 1674203246107
+url: "{{URL}}/api/payment/refund"
+name: PA02 - Validate or invalidate the refund of order lines
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |
+    {
+      "refunds": [
+        {
+          "amount": 83,
+          "currency_iso_code": "USD",
+          "payment_status": "OK",
+          "refund_id": 1107,
+          "transaction_date": "2019-04-02T10:45:53+01",
+          "transaction_number": "Trx-00323"
+        }
+      ]
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1674203246107
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

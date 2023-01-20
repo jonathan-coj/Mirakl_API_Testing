@@ -1,0 +1,23 @@
+_id: req_fb1ab97d886e45f69f4cc929f326b4e8
+type: Request
+parentId: fld_38a65a58c0dd449da82660d786d81b42
+modified: 1674203246323
+created: 1674203246323
+url: "{{URL}}/api/inbox/threads/:thread_id"
+name: M10 - Retrieve a thread
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+authentication: {}
+metaSortKey: -1674203246323
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

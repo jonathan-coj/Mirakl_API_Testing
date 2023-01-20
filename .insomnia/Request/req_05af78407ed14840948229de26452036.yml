@@ -1,0 +1,29 @@
+_id: req_05af78407ed14840948229de26452036
+type: Request
+parentId: fld_f4f0ebe254b94d8f9c55668b50dec334
+modified: 1674203246214
+created: 1674203246214
+url: "{{URL}}/api/offers/:offer"
+name: OF22 - Get information about an offer
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: pricing_channel_code
+    value: ""
+    disabled: true
+  - name: pricing_customer_organization_id
+    value: ""
+    disabled: true
+headers:
+  - name: Accept
+    value: application/json
+authentication: {}
+metaSortKey: -1674203246214
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

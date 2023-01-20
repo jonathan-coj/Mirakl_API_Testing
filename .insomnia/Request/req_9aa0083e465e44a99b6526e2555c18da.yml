@@ -1,0 +1,50 @@
+_id: req_9aa0083e465e44a99b6526e2555c18da
+type: Request
+parentId: fld_0846b43d860e424283801c4ec99cb85d
+modified: 1674203246150
+created: 1674203246150
+url: "{{URL}}/api/orders/:order_id/additional_fields"
+name: OR31 - Update the custom fields of an order and its order lines
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |
+    {
+      "order_additional_fields": [
+        {
+          "code": "ecotax",
+          "value": [
+            "15"
+          ]
+        }
+      ],
+      "order_lines": [
+        {
+          "order_line_additional_fields": [
+            {
+              "code": "delivery-countries",
+              "value": [
+                "Canada"
+              ]
+            }
+          ],
+          "order_line_id": "Order_00014-A-1"
+        }
+      ]
+    }
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1674203246150
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

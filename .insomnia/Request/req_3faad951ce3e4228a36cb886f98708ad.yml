@@ -1,0 +1,35 @@
+_id: req_3faad951ce3e4228a36cb886f98708ad
+type: Request
+parentId: fld_2db13e846323496c81ef366c24789156
+modified: 1674203245782
+created: 1674203245782
+url: "{{URL}}/api/promotions/:shop_id/:promotion_internal_id"
+name: PR02 - Get details of a promotion
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: offer_type
+    value: ""
+    disabled: true
+  - name: pricing_channel_code
+    value: ""
+    disabled: true
+  - name: pricing_customer_organization_id
+    value: ""
+    disabled: true
+  - name: locale
+    value: ""
+    disabled: true
+headers:
+  - name: Accept
+    value: application/json
+authentication: {}
+metaSortKey: -1674203245782
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

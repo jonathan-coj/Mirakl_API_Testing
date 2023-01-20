@@ -1,0 +1,23 @@
+_id: req_104bcf82ee644472a1ffafbb706ffe61
+type: Request
+parentId: fld_bd7f22e2a1d54a15aef8d30adef83648
+modified: 1674203245953
+created: 1674203245953
+url: "{{URL}}/api/shipping/carriers"
+name: SH21 - List all carriers
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+authentication: {}
+metaSortKey: -1674203245953
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,55 @@
+_id: req_b00775198990467bb73db5c1fc7fdd5c
+type: Request
+parentId: fld_65955f699103420b9eb6c368e09779b1
+modified: 1674203246431
+created: 1674203246431
+url: "{{URL}}/api/customer/organizations"
+name: CO01 - Create or update customer organizations
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |
+    {
+        "customer_organizations": [
+            {
+                "id":"organization-id-001",
+                "name":"Mirakl",
+                "identification_number":"1234567890",
+                "tax_identification_number":"TVA0987654321",
+                "address":{
+                    "street_1":"12 rue de Lubeck",
+                    "street_2":"Mirakl Campus",
+                    "city":"Paris",
+                    "zip_code":"75116",
+                    "country_iso_code":"FRA",
+                    "state":"Ile-de-France"
+                }
+            },
+            {
+                "id":"organization-id-002",
+                "identification_number":"8954781235",
+                "address":{
+                    "street_1":"8 rue Alphonse Daudet",
+                    "city":"Paris",
+                    "zip_code":"75004",
+                    "country_iso_code":"FRA"
+                }
+            }
+        ]
+    }
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1674203246431
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,23 @@
+_id: req_54016537c6c6407793151f256bf97c2d
+type: Request
+parentId: fld_2cd336129fa24073942925f1355dedaa
+modified: 1674203245929
+created: 1674203245929
+url: "{{URL}}/api/categories/synchros/:synchro"
+name: CA02 - Get the status of a Marketplace categories synchronization
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+authentication: {}
+metaSortKey: -1674203245929
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

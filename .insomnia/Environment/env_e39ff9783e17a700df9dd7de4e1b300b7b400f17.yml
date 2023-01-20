@@ -1,0 +1,16 @@
+_id: env_e39ff9783e17a700df9dd7de4e1b300b7b400f17
+type: Environment
+parentId: wrk_df6df5971c35435599a25b715462149e
+modified: 1674203437172
+created: 1674140330973
+name: Base Environment
+data:
+  Authorization: 0045aaa1-09d3-4a81-809e-38e8a594dc5b
+  URL: https://bundeskulturde-dev.mirakl.net/
+dataPropertyOrder:
+  "&":
+    - Authorization
+    - URL
+color: null
+isPrivate: false
+metaSortKey: 1674140330973

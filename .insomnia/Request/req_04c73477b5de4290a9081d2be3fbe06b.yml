@@ -1,0 +1,23 @@
+_id: req_04c73477b5de4290a9081d2be3fbe06b
+type: Request
+parentId: fld_2cd336129fa24073942925f1355dedaa
+modified: 1674203245871
+created: 1674203245871
+url: "{{URL}}/api/products/imports/:import"
+name: P42 - Get the import status for a product import
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+authentication: {}
+metaSortKey: -1674203245871
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

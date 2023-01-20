@@ -1,0 +1,98 @@
+_id: req_13f844aebcea43f29d2efdd2e2d52883
+type: Request
+parentId: fld_c70ba4a5e6a945cd8c654111d1290403
+modified: 1674203245751
+created: 1674203245751
+url: "{{URL}}/api/shops"
+name: S07 - Patch update shops
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: >
+    {
+      "shops": [
+        {
+          "address": {
+            "city": "New York",
+            "civility": "Mr",
+            "country": "USA",
+            "firstname": "Doe",
+            "lastname": "John",
+            "phone": "213-509-6996",
+            "phone_secondary": "213-509-6995",
+            "state": "Manhattan",
+            "street1": "30, Prince Street",
+            "street2": "1st floor",
+            "zip_code": "NY 10012"
+          },
+          "closed_from_date": "2019-05-20T10:45:53+01",
+          "closed_to_date": "2020-02-20T10:45:53+01",
+          "pro_details": {
+            "corporate_name": "ACME SHOP",
+            "identification_number": "01234567",
+            "tax_identification_number": "XXX-XX-XXXX"
+          },
+          "producer_identifiers": [
+            {
+                "epr_category_code": "FR-DEA",
+                "producer_id": "FR123456_89ABCD"
+            },
+            {
+                "epr_category_code": "DE-WEEE",
+                "producer_id": "PRODUCERID1"
+            }
+          ],
+          "recycling_policy": "When we deliver your new item,we’ll take your old one away for you.Appliance recycling:this service is available through our home delivery service.Recycling electronic items in-store:if you have an old electronic item,we can safely recycle these items in-store,for free",
+          "shipping_country": "USA",
+          "channel_codes": [
+            "US"
+          ],
+          "email": "shop@mail.com",
+          "is_professional": true,
+          "kyc": {
+            "reason": "Missing information",
+            "status": "REFUSED"
+          },
+          "operator_internal_id": "2005",
+          "payment_blocked": false,
+          "payment_info": {
+            "owner": "John Doe",
+            "@type": "ABA",
+            "bank_account_number": "000123456789123",
+            "bank_city": "New York",
+            "bank_name": "Bank of America",
+            "bank_street": "115 W 42nd St",
+            "bank_zip": "NY 10036 US",
+            "bic": "BOFAUS3NXXX",
+            "routing_number": "789456124"
+          },
+          "premium_state": "PREMIUM",
+          "shop_additional_fields": [
+            {
+              "code": "customer-care-phone",
+              "value": "213-509-6996"
+            }
+          ],
+          "shop_id": 2003,
+          "shop_name": "ACME SHOP",
+          "suspend": false,
+          "web_site": "http://www.mirakl.net"
+        }
+      ]
+    }
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1674203245751
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

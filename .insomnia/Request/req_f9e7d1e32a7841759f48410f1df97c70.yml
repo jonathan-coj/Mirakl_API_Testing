@@ -1,0 +1,23 @@
+_id: req_f9e7d1e32a7841759f48410f1df97c70
+type: Request
+parentId: fld_2cd336129fa24073942925f1355dedaa
+modified: 1674203245829
+created: 1674203245829
+url: "{{URL}}/api/products/imports/:import/transformation_error_report"
+name: P47 - Get the transformation error report file for a product import
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/octet-stream
+authentication: {}
+metaSortKey: -1674203245829
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

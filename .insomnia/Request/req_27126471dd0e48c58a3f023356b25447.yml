@@ -1,0 +1,23 @@
+_id: req_27126471dd0e48c58a3f023356b25447
+type: Request
+parentId: fld_0846b43d860e424283801c4ec99cb85d
+modified: 1674203246119
+created: 1674203246119
+url: "{{URL}}/api/orders/taxes"
+name: OR75 - List all the order taxes available on the platform
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+authentication: {}
+metaSortKey: -1674203246119
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

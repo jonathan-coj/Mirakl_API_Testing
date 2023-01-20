@@ -1,0 +1,85 @@
+_id: req_00f274d23abb420ba873c4f3afa52066
+type: Request
+parentId: fld_6027b204fc8642e6beb8e5369bda9e17
+modified: 1674203246410
+created: 1674203246410
+url: "{{URL}}/api/document-request/documents/upload"
+name: DR74 - Upload accounting documents
+description: ""
+method: POST
+body:
+  params:
+    - type: text
+      name: documents_input
+      disabled: true
+      value: |
+        {
+          "requests": [
+            {
+              "request_id": "a553f483-fcaa-40d0-bf1c-7864449a6646",
+              "document_number": "000000001",
+              "issue_date": "2022-01-02T00:00:00Z",
+              "due_date": "2022-02-02T00:00:00Z",
+              "files": [
+                {
+                  "name": "invoice.pdf",
+                  "format": "PDF"
+                },
+                {
+                  "name": "invoice.xml",
+                  "format": "cXML"
+                }
+              ]
+            },
+            {
+              "request_id": "7054e963-a0ed-494b-bc16-469c4c5f1985",
+              "document_number": "000000002",
+              "issue_date": "2022-01-02T00:00:00Z",
+              "due_date": "2022-02-02T00:00:00Z",
+              "files": [
+                {
+                  "name": "invoice.pdf",
+                  "format": "PDF"
+                },
+                {
+                  "name": "invoice.xml",
+                  "format": "cXML"
+                }
+              ]
+            },
+            {
+              "request_id":"477ffda7-5a30-4484-8393-a9e55ca1cf6e",
+              "document_number":"000000003",
+              "issue_date":"2022-11-24T00:00:00Z",
+              "due_date":"2022-12-31T00:00:00Z",
+              "total_amount_excluding_taxes":410.00,
+              "total_tax_amount":0.00,
+              "files":[
+                {
+                "name":"invoice.pdf",
+                "format":"PDF"
+                }
+              ]
+            }
+          ]
+        }
+    - type: file
+      name: files
+      disabled: true
+      fileName: null
+  mimeType: multipart/form-data
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Content-Type
+    value: multipart/form-data
+authentication: {}
+metaSortKey: -1674203246410
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

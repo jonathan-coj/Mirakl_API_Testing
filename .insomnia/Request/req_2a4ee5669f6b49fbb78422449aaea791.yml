@@ -1,0 +1,59 @@
+_id: req_2a4ee5669f6b49fbb78422449aaea791
+type: Request
+parentId: fld_2db13e846323496c81ef366c24789156
+modified: 1674203245813
+created: 1674203245813
+url: "{{URL}}/api/promotions"
+name: PR01 - List promotions
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: ids
+    value: ""
+    disabled: true
+  - name: types
+    value: ""
+    disabled: true
+  - name: states
+    value: ""
+    disabled: true
+  - name: shop_ids
+    value: ""
+    disabled: true
+  - name: ending_after
+    value: ""
+    disabled: true
+  - name: starting_before
+    value: ""
+    disabled: true
+  - name: date_created_from
+    value: ""
+    disabled: true
+  - name: date_created_to
+    value: ""
+    disabled: true
+  - name: locale
+    value: ""
+    disabled: true
+  - name: trigger_offer_ids
+    value: ""
+    disabled: true
+  - name: reward_offer_ids
+    value: ""
+    disabled: true
+  - name: channel_codes
+    value: ""
+    disabled: true
+headers:
+  - name: Accept
+    value: application/json
+authentication: {}
+metaSortKey: -1674203245813
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,23 @@
+_id: req_008d7392372e4103b080b56067068de1
+type: Request
+parentId: fld_bd7f22e2a1d54a15aef8d30adef83648
+modified: 1674203245954
+created: 1674203245954
+url: "{{URL}}/api/shipping/types"
+name: SH12 -  List all active shipping methods
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+authentication: {}
+metaSortKey: -1674203245954
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

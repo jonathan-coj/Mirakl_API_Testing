@@ -1,0 +1,74 @@
+_id: req_75a27c00b2fd40a2aec62047df43a944
+type: Request
+parentId: fld_6027b204fc8642e6beb8e5369bda9e17
+modified: 1674203246364
+created: 1674203246364
+url: "{{URL}}/api/sellerpayment/transactions_logs"
+name: TL02 - List transaction lines
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: shop_id
+    value: ""
+    disabled: true
+  - name: date_created_from
+    value: ""
+    disabled: true
+  - name: date_created_to
+    value: ""
+    disabled: true
+  - name: Transaction_date_from
+    value: ""
+    disabled: true
+  - name: Transaction_date_to
+    value: ""
+    disabled: true
+  - name: last_updated_from
+    value: ""
+    disabled: true
+  - name: payment_voucher_number
+    value: ""
+    disabled: true
+  - name: payment_state
+    value: ""
+    disabled: true
+  - name: transaction_type
+    value: ""
+    disabled: true
+  - name: accounting_document_number
+    value: ""
+    disabled: true
+  - name: order_id
+    value: ""
+    disabled: true
+  - name: order_line_id
+    value: ""
+    disabled: true
+  - name: shop_domain
+    value: ""
+    disabled: true
+  - name: order_reference_for_customer
+    value: ""
+    disabled: true
+  - name: order_reference_for_seller
+    value: ""
+    disabled: true
+  - name: accounting_document_id
+    value: ""
+    disabled: true
+  - name: shop_model
+    value: ""
+    disabled: true
+headers:
+  - name: Accept
+    value: application/json
+authentication: {}
+metaSortKey: -1674203246364
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

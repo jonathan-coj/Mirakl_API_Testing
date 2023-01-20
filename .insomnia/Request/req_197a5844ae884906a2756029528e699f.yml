@@ -1,0 +1,26 @@
+_id: req_197a5844ae884906a2756029528e699f
+type: Request
+parentId: fld_bd7f22e2a1d54a15aef8d30adef83648
+modified: 1674203246000
+created: 1674203246000
+url: "{{URL}}/api/evaluations/assessments"
+name: EV01 - List rating types on your platform
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: entity_type
+    value: ""
+    disabled: true
+headers:
+  - name: Accept
+    value: application/json
+authentication: {}
+metaSortKey: -1674203246000
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

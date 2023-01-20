@@ -1,0 +1,23 @@
+_id: req_01b3922343384f169d0d95b17a1434ed
+type: Request
+parentId: fld_f4f0ebe254b94d8f9c55668b50dec334
+modified: 1674203246177
+created: 1674203246177
+url: "{{URL}}/api/offers/pricing/imports/:import_id/error_report"
+name: PRI03 - Get the error report for a price import in CSV format
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/octet-stream
+authentication: {}
+metaSortKey: -1674203246177
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

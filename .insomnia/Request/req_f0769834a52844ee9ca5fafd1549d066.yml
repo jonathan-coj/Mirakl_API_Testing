@@ -1,0 +1,47 @@
+_id: req_f0769834a52844ee9ca5fafd1549d066
+type: Request
+parentId: fld_c70ba4a5e6a945cd8c654111d1290403
+modified: 1674203245727
+created: 1674203245727
+url: "{{URL}}/api/shops"
+name: S20 - List all shops
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: shop_ids
+    value: ""
+    disabled: true
+  - name: premium
+    value: ""
+    disabled: true
+  - name: state
+    value: ""
+    disabled: true
+  - name: updated_since
+    value: ""
+    disabled: true
+  - name: domains
+    value: ""
+    disabled: true
+  - name: kyc_status
+    value: ""
+    disabled: true
+  - name: paginate
+    value: ""
+    disabled: true
+  - name: models
+    value: ""
+    disabled: true
+headers:
+  - name: Accept
+    value: application/json
+authentication: {}
+metaSortKey: -1674203245727
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

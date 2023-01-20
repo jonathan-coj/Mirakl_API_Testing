@@ -1,0 +1,27 @@
+_id: req_eed68069c6b24f3196aae795b1978689
+type: Request
+parentId: fld_6027b204fc8642e6beb8e5369bda9e17
+modified: 1674203246348
+created: 1674203246348
+url: "{{URL}}The URL is retrieved from TL04 output"
+name: TL05 - Retrieve transaction logs files once asynchronous transaction logs
+  export is complete (TL04)
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: file
+    value: ""
+    disabled: false
+headers:
+  - name: Accept
+    value: application/json
+authentication: {}
+metaSortKey: -1674203246348
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

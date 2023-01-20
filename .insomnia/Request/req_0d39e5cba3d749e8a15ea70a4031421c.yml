@@ -1,0 +1,30 @@
+_id: req_0d39e5cba3d749e8a15ea70a4031421c
+type: Request
+parentId: fld_2cd336129fa24073942925f1355dedaa
+modified: 1674203245920
+created: 1674203245920
+url: "{{URL}}/api/hierarchies"
+name: H11 - List Catalog categories (parents and children) related to a Catalog
+  category
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: hierarchy
+    value: ""
+    disabled: true
+  - name: max_level
+    value: ""
+    disabled: true
+headers:
+  - name: Accept
+    value: application/json
+authentication: {}
+metaSortKey: -1674203245920
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

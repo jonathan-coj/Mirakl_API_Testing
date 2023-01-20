@@ -1,0 +1,21 @@
+_id: req_c2b2ba62bbe742dfbf9f6d693cccab85
+type: Request
+parentId: fld_6027b204fc8642e6beb8e5369bda9e17
+modified: 1674203246380
+created: 1674203246380
+url: "{{URL}}/api/invoices/:accounting_document_id/issue"
+name: IV05 - Issue a draft manual accounting document
+description: ""
+method: PUT
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1674203246380
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

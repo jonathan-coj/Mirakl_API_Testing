@@ -1,0 +1,38 @@
+_id: req_3032ec292f8843d5b5a474ae76206ee8
+type: Request
+parentId: fld_38a65a58c0dd449da82660d786d81b42
+modified: 1674203246317
+created: 1674203246317
+url: "{{URL}}/api/inbox/threads"
+name: M11 - List all threads
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: entity_type
+    value: ""
+    disabled: true
+  - name: entity_id
+    value: ""
+    disabled: true
+  - name: updated_since
+    value: ""
+    disabled: true
+  - name: with_messages
+    value: ""
+    disabled: true
+  - name: channel_codes
+    value: ""
+    disabled: true
+headers:
+  - name: Accept
+    value: application/json
+authentication: {}
+metaSortKey: -1674203246317
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,40 @@
+_id: req_d3870746d9cd4362933bf33b45d2bea7
+type: Request
+parentId: fld_a3922f5be6154bbca2fb6f750cb204b5
+modified: 1674203246256
+created: 1674203246256
+url: "{{URL}}/api/shipments/ready_for_pick_up"
+name: ST26 - Validate shipments as ready to pick up
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |
+    {
+      "shipments": [
+        {
+          "id": "f40bf65e-a320-41d3-878c-36ce9e1144ce"
+        },
+        {
+          "id": "c8ca3759-a81b-4abe-afd0-93a418e83ae8"
+        },
+        {
+          "id": "ff341bfe-ebeb-4211-848b-77fcbcd91723"
+        }
+      ]
+    }
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1674203246256
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,23 @@
+_id: req_ddf151c69535455a816aaae3b868fbc8
+type: Request
+parentId: fld_f4f0ebe254b94d8f9c55668b50dec334
+modified: 1674203246222
+created: 1674203246222
+url: "{{URL}}/api/offers/imports/:import"
+name: OF02 - Get information and statistics about an offer import
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+authentication: {}
+metaSortKey: -1674203246222
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

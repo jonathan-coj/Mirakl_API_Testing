@@ -1,0 +1,21 @@
+_id: req_d7dd9693f7804511850bae05fa32a825
+type: Request
+parentId: fld_0846b43d860e424283801c4ec99cb85d
+modified: 1674203246156
+created: 1674203246156
+url: "{{URL}}/api/orders/:order_id/receive"
+name: OR25 - Validate the receipt of an order
+description: ""
+method: PUT
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1674203246156
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

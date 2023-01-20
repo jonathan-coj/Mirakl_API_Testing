@@ -1,0 +1,41 @@
+_id: req_59013f86135242ea9e8d354fa5a8a965
+type: Request
+parentId: fld_c70ba4a5e6a945cd8c654111d1290403
+modified: 1674203245756
+created: 1674203245756
+url: "{{URL}}/api/shops/:shop/offers"
+name: S04 - List offers of a shop
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: offer_state_codes
+    value: ""
+    disabled: true
+  - name: all_offers
+    value: ""
+    disabled: true
+  - name: product_skus
+    value: ""
+    disabled: true
+  - name: favorite
+    value: ""
+    disabled: true
+  - name: pricing_channel_code
+    value: ""
+    disabled: true
+  - name: pricing_customer_organization_id
+    value: ""
+    disabled: true
+headers:
+  - name: Accept
+    value: application/json
+authentication: {}
+metaSortKey: -1674203245756
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

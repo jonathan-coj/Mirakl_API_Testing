@@ -1,0 +1,35 @@
+_id: req_0fba5ca4215d45009ec1fe9472344cfc
+type: Request
+parentId: fld_f4f0ebe254b94d8f9c55668b50dec334
+modified: 1674203246197
+created: 1674203246197
+url: "{{URL}}/api/offers/pricing/imports"
+name: PRI01 - Import a price file
+description: ""
+method: POST
+body:
+  params:
+    - type: file
+      name: file
+      disabled: true
+      fileName: null
+    - type: text
+      name: shop
+      disabled: true
+      value: null
+  mimeType: multipart/form-data
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Content-Type
+    value: multipart/form-data
+authentication: {}
+metaSortKey: -1674203246197
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

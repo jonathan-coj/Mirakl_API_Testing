@@ -1,0 +1,23 @@
+_id: req_923879ff32c44d6e8354013b47eefa48
+type: Request
+parentId: fld_2cd336129fa24073942925f1355dedaa
+modified: 1674203245876
+created: 1674203245876
+url: "{{URL}}/api/products/synchros/:synchro/error_report"
+name: P23 - Get the error report file for a product synchronization
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: text/csv
+authentication: {}
+metaSortKey: -1674203245876
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

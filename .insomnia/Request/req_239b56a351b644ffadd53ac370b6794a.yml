@@ -1,0 +1,42 @@
+_id: req_239b56a351b644ffadd53ac370b6794a
+type: Request
+parentId: fld_65955f699103420b9eb6c368e09779b1
+modified: 1674203246425
+created: 1674203246425
+url: "{{URL}}/api/customer/organizations/groups"
+name: CO02 - Associate customer organizations with customer groups
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |
+    {
+      "customer_organization_group_associations": [
+        {
+          "customer_organization_id": "customer-organization-id-1",
+          "customer_group_ids": [
+            "customer-group-id-1",
+            "customer-group-id-2"
+          ]
+        },
+        {
+          "customer_organization_id": "i-do-not-exists",
+          "customer_group_ids": []
+        }
+      ]
+    }
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1674203246425
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

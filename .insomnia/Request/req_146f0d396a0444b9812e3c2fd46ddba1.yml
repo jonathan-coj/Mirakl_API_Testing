@@ -1,0 +1,26 @@
+_id: req_146f0d396a0444b9812e3c2fd46ddba1
+type: Request
+parentId: fld_bd7f22e2a1d54a15aef8d30adef83648
+modified: 1674203246002
+created: 1674203246002
+url: "{{URL}}/api/documents"
+name: DO01 - List all document types
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: entities
+    value: ""
+    disabled: true
+headers:
+  - name: Accept
+    value: application/json
+authentication: {}
+metaSortKey: -1674203246002
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

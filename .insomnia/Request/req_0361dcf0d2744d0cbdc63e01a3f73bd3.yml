@@ -1,0 +1,62 @@
+_id: req_0361dcf0d2744d0cbdc63e01a3f73bd3
+type: Request
+parentId: fld_f4f0ebe254b94d8f9c55668b50dec334
+modified: 1674203246199
+created: 1674203246199
+url: "{{URL}}/api/products/offers"
+name: P11 - List offers for each given product
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: product_ids
+    value: ""
+    disabled: true
+  - name: product_references
+    value: ""
+    disabled: true
+  - name: offer_state_codes
+    value: ""
+    disabled: true
+  - name: premium
+    value: ""
+    disabled: true
+  - name: all_offers
+    value: ""
+    disabled: true
+  - name: channel_codes
+    value: ""
+    disabled: true
+  - name: all_channels
+    value: ""
+    disabled: true
+  - name: pricing_channel_code
+    value: ""
+    disabled: true
+  - name: pricing_customer_organization_id
+    value: ""
+    disabled: true
+  - name: shop_ids
+    value: ""
+    disabled: true
+  - name: shipping_zones
+    value: ""
+    disabled: true
+  - name: all_shipping_zones
+    value: ""
+    disabled: true
+  - name: models
+    value: ""
+    disabled: true
+headers:
+  - name: Accept
+    value: application/json
+authentication: {}
+metaSortKey: -1674203246199
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

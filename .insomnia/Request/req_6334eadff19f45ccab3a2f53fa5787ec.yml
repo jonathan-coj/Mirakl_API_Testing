@@ -1,0 +1,26 @@
+_id: req_6334eadff19f45ccab3a2f53fa5787ec
+type: Request
+parentId: fld_2cd336129fa24073942925f1355dedaa
+modified: 1674203245819
+created: 1674203245819
+url: "{{URL}}/api/values_lists"
+name: VL11 - Get information about operator's value lists
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: code
+    value: ""
+    disabled: true
+headers:
+  - name: Accept
+    value: application/json
+authentication: {}
+metaSortKey: -1674203245819
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

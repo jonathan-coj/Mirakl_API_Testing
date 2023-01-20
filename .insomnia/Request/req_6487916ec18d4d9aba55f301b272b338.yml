@@ -1,0 +1,35 @@
+_id: req_6487916ec18d4d9aba55f301b272b338
+type: Request
+parentId: fld_a3922f5be6154bbca2fb6f750cb204b5
+modified: 1674203246268
+created: 1674203246268
+url: "{{URL}}/api/shipments/items_to_ship"
+name: ST12 - List items to ship
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: order_id
+    value: ""
+    disabled: true
+  - name: fulfillment_center_code
+    value: ""
+    disabled: true
+  - name: shipping_date_from
+    value: ""
+    disabled: true
+  - name: shipping_date_to
+    value: ""
+    disabled: true
+headers:
+  - name: Accept
+    value: application/json
+authentication: {}
+metaSortKey: -1674203246268
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

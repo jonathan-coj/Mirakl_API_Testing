@@ -1,0 +1,23 @@
+_id: req_cae145efdfac428a904641465779c1d7
+type: Request
+parentId: fld_f4f0ebe254b94d8f9c55668b50dec334
+modified: 1674203246200
+created: 1674203246200
+url: "{{URL}}The URL is retrieved from OF53 output"
+name: OF54 - Retrieve offer files once asynchronous offer export is complete (OF52)
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+authentication: {}
+metaSortKey: -1674203246200
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

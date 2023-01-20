@@ -1,0 +1,60 @@
+_id: req_11841b5b0338408cb5eea66c4a90bd35
+type: Request
+parentId: fld_0846b43d860e424283801c4ec99cb85d
+modified: 1674203246154
+created: 1674203246154
+url: "{{URL}}/api/orders/refund"
+name: OR28 - Request refunds on order lines
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |
+    {
+      "refunds": [
+        {
+          "amount": 1.5,
+          "currency_iso_code": "USD",
+          "order_line_id": "Order_00010-A-1",
+          "quantity": 0,
+          "reason_code": "15",
+          "excluded_from_shipment": false,
+          "shipping_amount": 2,
+          "shipping_taxes": [
+            {
+              "amount": "1",
+              "code": "tax1"
+            },
+            {
+              "amount": "1",
+              "code": "tax2"
+            }
+          ],
+          "taxes": [
+            {
+              "amount": "1",
+              "code": "tax1"
+            },
+            {
+              "amount": "1",
+              "code": "tax2"
+            }
+          ]
+        }
+      ]
+    }
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1674203246154
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

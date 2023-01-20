@@ -1,0 +1,23 @@
+_id: req_b49528bab01b45e5ab89901b7756279b
+type: Request
+parentId: fld_6027b204fc8642e6beb8e5369bda9e17
+modified: 1674203246415
+created: 1674203246415
+url: "{{URL}}/api/document-request/:document_request_id/lines"
+name: DR12 - List of document request lines
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+authentication: {}
+metaSortKey: -1674203246415
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

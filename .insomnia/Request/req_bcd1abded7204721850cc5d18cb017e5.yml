@@ -1,0 +1,21 @@
+_id: req_bcd1abded7204721850cc5d18cb017e5
+type: Request
+parentId: fld_6027b204fc8642e6beb8e5369bda9e17
+modified: 1674203246376
+created: 1674203246376
+url: "{{URL}}/api/invoices/:accounting_document_id"
+name: IV06 - Delete a draft accounting document
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1674203246376
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

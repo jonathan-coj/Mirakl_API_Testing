@@ -1,0 +1,32 @@
+_id: req_a7d17c7e16144d28a789ddacdc155161
+type: Request
+parentId: fld_c70ba4a5e6a945cd8c654111d1290403
+modified: 1674203245720
+created: 1674203245720
+url: "{{URL}}/api/shops/documents/download"
+name: S31 - Download documents for one or multiple shops
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: shop_ids
+    value: ""
+    disabled: true
+  - name: document_ids
+    value: ""
+    disabled: true
+  - name: type_codes
+    value: ""
+    disabled: true
+headers:
+  - name: Accept
+    value: application/octet-stream
+authentication: {}
+metaSortKey: -1674203245720
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

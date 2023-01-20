@@ -1,0 +1,23 @@
+_id: req_c4b0d2828690413a8e4076d198798365
+type: Request
+parentId: fld_bd7f22e2a1d54a15aef8d30adef83648
+modified: 1674203245955
+created: 1674203245955
+url: "{{URL}}/api/shipping/zones"
+name: SH11 - List all active shipping zones
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+authentication: {}
+metaSortKey: -1674203245955
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

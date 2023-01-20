@@ -1,0 +1,39 @@
+_id: req_37430d101cb5485c9a0b3d0047fd01bd
+type: Request
+parentId: fld_0846b43d860e424283801c4ec99cb85d
+modified: 1674203246148
+created: 1674203246148
+url: "{{URL}}/api/orders/adjust"
+name: OR32 - Adjust order line
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |
+    {
+      "order_lines": [
+        {
+          "order_line_id": "ORDER_0014-A-1",
+          "actual_measurement": 0.85
+        },
+        {
+          "order_line_id": "ORDER_9999-A-1",
+          "actual_measurement": 1
+        }
+      ]
+    }
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1674203246148
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

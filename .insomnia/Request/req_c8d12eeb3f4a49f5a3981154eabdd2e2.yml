@@ -1,0 +1,38 @@
+_id: req_c8d12eeb3f4a49f5a3981154eabdd2e2
+type: Request
+parentId: fld_2cd336129fa24073942925f1355dedaa
+modified: 1674203245822
+created: 1674203245822
+url: "{{URL}}/api/products/attributes"
+name: PM11 - Get the product attribute configuration
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: hierarchy
+    value: ""
+    disabled: true
+  - name: max_level
+    value: ""
+    disabled: true
+  - name: channels
+    value: ""
+    disabled: true
+  - name: product_feeds
+    value: ""
+    disabled: true
+  - name: with_roles
+    value: ""
+    disabled: true
+headers:
+  - name: Accept
+    value: application/json
+authentication: {}
+metaSortKey: -1674203245822
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,23 @@
+_id: req_03093b1583f847daa4ed26d9fb776e22
+type: Request
+parentId: fld_72cb5ae86ea84d82862a5da832ead4a1
+modified: 1674203246069
+created: 1674203246069
+url: "{{URL}}/api/payment/refund"
+name: PA12 - List pending order refunds
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+authentication: {}
+metaSortKey: -1674203246069
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

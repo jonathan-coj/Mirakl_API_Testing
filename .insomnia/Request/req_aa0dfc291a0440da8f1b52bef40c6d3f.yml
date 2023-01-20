@@ -1,0 +1,35 @@
+_id: req_aa0dfc291a0440da8f1b52bef40c6d3f
+type: Request
+parentId: fld_2cd336129fa24073942925f1355dedaa
+modified: 1674203245826
+created: 1674203245826
+url: "{{URL}}/api/products/imports"
+name: P51 - Get information about product import statuses
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: last_request_date
+    value: ""
+    disabled: true
+  - name: status
+    value: ""
+    disabled: true
+  - name: has_transformed_file
+    value: ""
+    disabled: true
+  - name: shop_id
+    value: ""
+    disabled: false
+headers:
+  - name: Accept
+    value: application/json
+authentication: {}
+metaSortKey: -1674203245826
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

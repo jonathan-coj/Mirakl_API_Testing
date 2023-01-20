@@ -1,0 +1,35 @@
+_id: req_265dde5da4f44a6daf0b85aa34908821
+type: Request
+parentId: fld_a3922f5be6154bbca2fb6f750cb204b5
+modified: 1674203246270
+created: 1674203246270
+url: "{{URL}}/api/shipments"
+name: ST11 - List shipments
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: order_id
+    value: ""
+    disabled: true
+  - name: shipment_state_code
+    value: ""
+    disabled: true
+  - name: last_updated_from
+    value: ""
+    disabled: true
+  - name: last_updated_to
+    value: ""
+    disabled: true
+headers:
+  - name: Accept
+    value: application/json
+authentication: {}
+metaSortKey: -1674203246270
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

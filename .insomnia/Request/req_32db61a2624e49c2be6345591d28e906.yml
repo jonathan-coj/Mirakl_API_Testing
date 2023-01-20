@@ -1,0 +1,43 @@
+_id: req_32db61a2624e49c2be6345591d28e906
+type: Request
+parentId: fld_38a65a58c0dd449da82660d786d81b42
+modified: 1674203246299
+created: 1674203246299
+url: "{{URL}}/api/orders/:order_id/threads"
+name: OR43 - Create a thread on an order
+description: ""
+method: POST
+body:
+  params:
+    - type: file
+      name: files
+      disabled: true
+      fileName: null
+    - type: text
+      name: thread_input
+      disabled: true
+      value: |
+        {
+            "body": "This is an example body",
+            "topic": {
+                "type": "FREE_TEXT",
+                "value": "This is an example"
+            },
+            "to": ["SHOP", "OPERATOR"]
+        }
+  mimeType: multipart/form-data
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Content-Type
+    value: multipart/form-data
+authentication: {}
+metaSortKey: -1674203246299
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

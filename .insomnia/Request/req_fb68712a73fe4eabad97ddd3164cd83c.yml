@@ -1,0 +1,38 @@
+_id: req_fb68712a73fe4eabad97ddd3164cd83c
+type: Request
+parentId: fld_6027b204fc8642e6beb8e5369bda9e17
+modified: 1674203246412
+created: 1674203246412
+url: "{{URL}}/api/document-request/documents/download"
+name: DR73 - Download accounting documents
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: document_request_id
+    value: ""
+    disabled: true
+  - name: document_id
+    value: ""
+    disabled: true
+  - name: document_format
+    value: ""
+    disabled: true
+  - name: entity_id
+    value: ""
+    disabled: true
+  - name: entity_type
+    value: ""
+    disabled: true
+headers:
+  - name: Accept
+    value: application/octet-stream
+authentication: {}
+metaSortKey: -1674203246412
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

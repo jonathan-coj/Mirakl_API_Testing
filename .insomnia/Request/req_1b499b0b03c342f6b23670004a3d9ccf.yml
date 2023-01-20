@@ -1,0 +1,23 @@
+_id: req_1b499b0b03c342f6b23670004a3d9ccf
+type: Request
+parentId: fld_f4f0ebe254b94d8f9c55668b50dec334
+modified: 1674203246203
+created: 1674203246203
+url: "{{URL}}/api/offers/export/async/status/:tracking_id"
+name: OF53 - Poll the status of an asynchronous offer export (OF52)
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+authentication: {}
+metaSortKey: -1674203246203
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

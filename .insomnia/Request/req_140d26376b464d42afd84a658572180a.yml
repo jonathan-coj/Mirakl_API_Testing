@@ -1,0 +1,41 @@
+_id: req_140d26376b464d42afd84a658572180a
+type: Request
+parentId: fld_f4f0ebe254b94d8f9c55668b50dec334
+modified: 1674203246217
+created: 1674203246217
+url: "{{URL}}/api/offers/imports"
+name: OF04 - Get information and statistics about offer imports
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: shop_id
+    value: ""
+    disabled: true
+  - name: start_date
+    value: ""
+    disabled: true
+  - name: end_date
+    value: ""
+    disabled: true
+  - name: status
+    value: ""
+    disabled: true
+  - name: mode
+    value: ""
+    disabled: true
+  - name: origins
+    value: ""
+    disabled: true
+headers:
+  - name: Accept
+    value: application/json
+authentication: {}
+metaSortKey: -1674203246217
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

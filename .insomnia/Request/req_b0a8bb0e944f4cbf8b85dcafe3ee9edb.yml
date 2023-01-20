@@ -1,0 +1,67 @@
+_id: req_b0a8bb0e944f4cbf8b85dcafe3ee9edb
+type: Request
+parentId: fld_6027b204fc8642e6beb8e5369bda9e17
+modified: 1674203246400
+created: 1674203246400
+url: "{{URL}}/api/invoices"
+name: IV03 - Create a manual accounting document
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |
+    {
+      "manual_accounting_documents" : [ {
+        "type" : "INVOICE",
+        "shop_id" : 66439875,
+        "lines" : [ {
+          "description" : "Premium",
+          "quantity" : 3,
+          "amount" : 33,
+          "tax_codes" : [ "TAXDEFAULT", "TAX1" ],
+          "operation_date" : "2016-08-30T22:00:00Z",
+          "order_id" : "ORDER1-A"
+        } ],
+        "issued" : true
+      }, {
+        "type" : "CREDIT",
+        "shop_id" : 66439875,
+        "lines" : [ {
+          "description" : "Premium",
+          "quantity" : 3,
+          "amount" : 33,
+          "tax_codes" : [ "TAXDEFAULT" ]
+        }, {
+          "description" : "Premium 2",
+          "quantity" : 2,
+          "amount" : 10,
+          "tax_codes" : [ "TAXDEFAULT" ]
+        } ],
+        "issued" : false
+      }, {
+        "type" : "INVOICE",
+        "shop_id" : 66439875,
+        "lines" : [ {
+          "description" : "item 1",
+          "quantity" : 1,
+          "amount" : 10.75,
+          "tax_codes" : [ "NOT_FOUND" ]
+        } ],
+        "issued" : false
+      } ]
+    }
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1674203246400
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

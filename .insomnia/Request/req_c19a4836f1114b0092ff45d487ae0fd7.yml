@@ -1,0 +1,23 @@
+_id: req_c19a4836f1114b0092ff45d487ae0fd7
+type: Request
+parentId: fld_2cd336129fa24073942925f1355dedaa
+modified: 1674203245879
+created: 1674203245879
+url: "{{URL}}/api/products/synchros/:synchro"
+name: P22 - Get the status of a product synchronization
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+authentication: {}
+metaSortKey: -1674203245879
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

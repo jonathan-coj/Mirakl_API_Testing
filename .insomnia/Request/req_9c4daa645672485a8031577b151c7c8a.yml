@@ -1,0 +1,26 @@
+_id: req_9c4daa645672485a8031577b151c7c8a
+type: Request
+parentId: fld_2db13e846323496c81ef366c24789156
+modified: 1674203245763
+created: 1674203245763
+url: "{{URL}}/api/promotions/offers"
+name: PR51 - Get a CSV file listing the promotions associated with offers
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: last_request_date
+    value: ""
+    disabled: true
+headers:
+  - name: Accept
+    value: application/octet-stream
+authentication: {}
+metaSortKey: -1674203245763
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

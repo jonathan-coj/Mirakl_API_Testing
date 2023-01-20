@@ -1,0 +1,23 @@
+_id: req_570b0c813df04a36b3e686d94c10bd01
+type: Request
+parentId: fld_38a65a58c0dd449da82660d786d81b42
+modified: 1674203246303
+created: 1674203246303
+url: "{{URL}}/api/inbox/threads/:attachment_id/download"
+name: M13 - Download an attachment
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/octet-stream
+authentication: {}
+metaSortKey: -1674203246303
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

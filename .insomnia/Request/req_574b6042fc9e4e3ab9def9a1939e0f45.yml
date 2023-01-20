@@ -1,0 +1,41 @@
+_id: req_574b6042fc9e4e3ab9def9a1939e0f45
+type: Request
+parentId: fld_f4f0ebe254b94d8f9c55668b50dec334
+modified: 1674203246209
+created: 1674203246209
+url: "{{URL}}/api/offers/export"
+name: OF51 - Get offers CSV file
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: last_request_date
+    value: ""
+    disabled: true
+  - name: channel_codes
+    value: ""
+    disabled: true
+  - name: shipping_zones
+    value: ""
+    disabled: true
+  - name: include_inactive_offers
+    value: ""
+    disabled: true
+  - name: include_fields
+    value: ""
+    disabled: true
+  - name: models
+    value: ""
+    disabled: true
+headers:
+  - name: Accept
+    value: text/csv
+authentication: {}
+metaSortKey: -1674203246209
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

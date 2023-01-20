@@ -1,0 +1,26 @@
+_id: req_a458d83f805b45568664221b079137d9
+type: Request
+parentId: fld_bd7f22e2a1d54a15aef8d30adef83648
+modified: 1674203246008
+created: 1674203246008
+url: "{{URL}}/api/additional_fields"
+name: AF01 - List all custom fields
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: entities
+    value: ""
+    disabled: true
+headers:
+  - name: Accept
+    value: application/json
+authentication: {}
+metaSortKey: -1674203246008
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

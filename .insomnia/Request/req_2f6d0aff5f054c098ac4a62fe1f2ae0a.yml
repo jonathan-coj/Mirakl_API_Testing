@@ -1,0 +1,104 @@
+_id: req_2f6d0aff5f054c098ac4a62fe1f2ae0a
+type: Request
+parentId: fld_c70ba4a5e6a945cd8c654111d1290403
+modified: 1674203245754
+created: 1674203245754
+url: "{{URL}}/api/shops"
+name: S06 - Create shops
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >
+    {
+      "shops": [
+        {
+          "address": {
+            "city": "New York",
+            "civility": "Mr",
+            "country": "USA",
+            "firstname": "Doe",
+            "lastname": "John",
+            "phone": "213-509-6995",
+            "phone_secondary": "213-509-6996",
+            "state": "Manhattan",
+            "street1": "30, Prince Street",
+            "street2": "1st floor",
+            "zip_code": "NY 10012"
+          },
+          "closed_from_date": "2019-05-20T10:45:53+01",
+          "closed_to_date": "2020-02-20T10:45:53+01",
+          "currency_iso_code": "USD",
+          "description": "Games seller",
+          "model": "MARKETPLACE",
+          "domains": [
+            "PRODUCT"
+          ],
+          "email": "shop@mail.com",
+          "fax": "213-509-6997",
+          "immunity_date": "2020-02-20T10:45:53+01",
+          "is_professional": true,
+          "new_user": {
+            "email": "shop@mail.com",
+            "locale": "en_US",
+            "password": "Mirakl123"
+          },
+          "operator_internal_id": "2003",
+          "password": "Mirakl123",
+          "payment_blocked": false,
+          "payment_info": {
+            "owner": "John Doe",
+            "@type": "ABA",
+            "bank_account_number": "000123456789123",
+            "bank_city": "New York",
+            "bank_name": "Bank of America",
+            "bank_street": "115 W 42nd St",
+            "bank_zip": "NY 10036 US",
+            "bic": "BOFAUS3NXXX",
+            "routing_number": "789456124"
+          },
+          "pro_details": {
+            "corporate_name": "ACME SHOP",
+            "identification_number": "01234567",
+            "tax_identification_number": "XXX-XX-XXXX"
+          },
+          "return_policy": "Any product return must be the subject of a formal agreement between the Seller and Purchaser. Any product returned without this agreement shall be held on behalf of the Purchaser and shall not give rise to the granting of any credit note. Claims must be received by shop within 8 days of the delivery of the goods. Subsequently to this delay, no claims shall be accepted. Once this delay has expired, should the client not have addressed their claim in writing to shop, the client is deemed to have accepted the product.Warranties that cover the delivered goods only apply within the framework of their intended use. Defects and damage resulting from natural wear, faulty assembly or maintenance, as well as modification of the products that was not intended or specified by the Seller are excluded from the warranty. Goods must be returned in their original packaging and as new, the cost and risks of returning the goods being borne by the Purchaser. Once the returned goods have been received and inspected, shop shall send the Purchaser a credit note corresponding to the amount of the original invoice, after deduction of any compensation or expenses which arise from any reconditioning work deemed necessary. This sum is credited to the account that the Purchaser has opened with the shop",
+          "producer_identifiers": [
+            {
+                "epr_category_code": "FR-DEA",
+                "producer_id": "FR123456_89ABCD"
+            },
+            {
+                "epr_category_code": "DE-WEEE",
+                "producer_id": "PRODUCERID1"
+            }
+          ],
+          "recycling_policy": "When we deliver your new item,we’ll take your old one away for you.Appliance recycling:this service is available through our home delivery service.Recycling electronic items in-store:if you have an old electronic item,we can safely recycle these items in-store,for free",
+          "shipping_country": "USA",
+          "shop_additional_fields": [
+            {
+              "code": "customer-care-phone",
+              "value": "213-509-6996"
+            }
+          ],
+          "shop_name": "ACME SHOP",
+          "suspend": false,
+          "web_site": "https://www.mirakl.com"
+        }
+      ]
+    }
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1674203245754
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

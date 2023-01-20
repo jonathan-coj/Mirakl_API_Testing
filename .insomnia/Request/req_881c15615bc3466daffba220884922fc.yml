@@ -1,0 +1,21 @@
+_id: req_881c15615bc3466daffba220884922fc
+type: Request
+parentId: fld_0846b43d860e424283801c4ec99cb85d
+modified: 1674203246153
+created: 1674203246153
+url: "{{URL}}/api/orders/:order_id/cancel"
+name: OR29 - Cancel an order not yet debited from the customer
+description: ""
+method: PUT
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1674203246153
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

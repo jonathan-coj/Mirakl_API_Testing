@@ -1,0 +1,23 @@
+_id: req_f28ca7b9139c44d68956db6ad6515b61
+type: Request
+parentId: fld_f4f0ebe254b94d8f9c55668b50dec334
+modified: 1674203246220
+created: 1674203246220
+url: "{{URL}}/api/offers/imports/:import/error_report"
+name: OF03 - Get the error report file for an offer import
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/octet-stream
+authentication: {}
+metaSortKey: -1674203246220
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

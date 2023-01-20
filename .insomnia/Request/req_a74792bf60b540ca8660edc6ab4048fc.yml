@@ -1,0 +1,23 @@
+_id: req_a74792bf60b540ca8660edc6ab4048fc
+type: Request
+parentId: fld_bd7f22e2a1d54a15aef8d30adef83648
+modified: 1674203245998
+created: 1674203245998
+url: "{{URL}}/api/locales"
+name: L01 - List locale codes and labels
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+authentication: {}
+metaSortKey: -1674203245998
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

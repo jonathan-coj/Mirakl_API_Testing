@@ -1,0 +1,75 @@
+_id: req_e88c5c03d2ab49f38539a0e982b55dc8
+type: Request
+parentId: fld_a3922f5be6154bbca2fb6f750cb204b5
+modified: 1674203246277
+created: 1674203246277
+url: "{{URL}}/api/shipments"
+name: ST01 - Create shipments
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >
+    {
+      "shipments": [
+        {
+          "order_id": "ORDER_01-A",
+          "invoice_reference": "ABCDEF012345",
+          "tracking": {
+            "carrier_code": "UPS",
+            "carrier_name": "UPS",
+            "tracking_number": "1Z2356F1ZJ98L9733M5",
+            "tracking_url": "https://wwwapps.ups.com/WebTracking/track?track=yes&trackNums={trackingId}"
+          },
+          "shipment_lines": [
+            {
+              "offer_sku": "OFFER_SKU_1",
+              "package_reference": "package_ref_1",
+              "quantity": 1
+            },
+            {
+              "offer_sku": "OFFER_SKU_2",
+              "package_reference": "package_ref_2",
+              "quantity": 3
+            }
+          ],
+          "shipped": false
+        },
+        {
+          "order_id": "ORDER_01-A",
+          "invoice_reference": "ABCDEF012345",
+          "tracking": {
+            "carrier_name": "Custom carrier",
+            "tracking_url": "http://www.customcarrier.com/tracking"
+          },
+          "shipment_lines": [
+            {
+              "order_line_id": "ORDER_01-A-1",
+              "package_reference": "package_ref_1",
+              "quantity": 1
+            },
+            {
+              "order_line_id": "ORDER_01-A-2",
+              "package_reference": "package_ref_2",
+              "quantity": 3
+            }
+          ],
+          "shipped": true
+        }
+      ]
+    }
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1674203246277
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

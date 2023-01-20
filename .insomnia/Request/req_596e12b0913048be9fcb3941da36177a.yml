@@ -1,0 +1,40 @@
+_id: req_596e12b0913048be9fcb3941da36177a
+type: Request
+parentId: fld_65955f699103420b9eb6c368e09779b1
+modified: 1674203246423
+created: 1674203246423
+url: "{{URL}}/api/customers"
+name: CU01 - Create or update customers
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |
+    {
+      "customers": [
+        {
+          "id": "super-customer",
+          "civility": "Mr",
+          "firstname": "Taylor",
+          "lastname": "Smith",
+          "locale": "en_US",
+          "email": "customer@mail.com",
+          "customer_organization_id": "CUST_ORG_ID_00291"
+        }
+      ]
+    }
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1674203246423
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

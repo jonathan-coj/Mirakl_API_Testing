@@ -1,0 +1,23 @@
+_id: req_f362da173d994808b39300d66fdfd853
+type: Request
+parentId: fld_2cd336129fa24073942925f1355dedaa
+modified: 1674203245867
+created: 1674203245867
+url: "{{URL}}/api/products/imports/:import/new_product_report"
+name: P45 - Get the product integration report file for a product import
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/octet-stream
+authentication: {}
+metaSortKey: -1674203245867
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

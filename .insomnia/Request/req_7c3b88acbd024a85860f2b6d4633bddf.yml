@@ -1,0 +1,47 @@
+_id: req_7c3b88acbd024a85860f2b6d4633bddf
+type: Request
+parentId: fld_f4f0ebe254b94d8f9c55668b50dec334
+modified: 1674203246225
+created: 1674203246225
+url: "{{URL}}/api/offers/imports"
+name: OF01 - Import a file to add offers
+description: ""
+method: POST
+body:
+  params:
+    - type: file
+      name: file
+      disabled: true
+      fileName: null
+    - type: text
+      name: import_mode
+      disabled: true
+      value: null
+    - type: text
+      name: operator_format
+      disabled: true
+      value: null
+    - type: text
+      name: shop
+      disabled: true
+      value: null
+    - type: text
+      name: with_products
+      disabled: true
+      value: null
+  mimeType: multipart/form-data
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Content-Type
+    value: multipart/form-data
+authentication: {}
+metaSortKey: -1674203246225
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

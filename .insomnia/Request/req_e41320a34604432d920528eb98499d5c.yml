@@ -1,0 +1,44 @@
+_id: req_e41320a34604432d920528eb98499d5c
+type: Request
+parentId: fld_6692425265d449858de2198c2a74325e
+modified: 1674203246011
+created: 1674203246011
+url: "{{URL}}/api/picklists"
+name: PL11 - List picklists
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: pickrun_code
+    value: ""
+    disabled: true
+  - name: pickup_date_min
+    value: ""
+    disabled: true
+  - name: pickup_date_max
+    value: ""
+    disabled: true
+  - name: picklist_id
+    value: ""
+    disabled: true
+  - name: shop_id
+    value: ""
+    disabled: true
+  - name: picklist_state
+    value: ""
+    disabled: true
+  - name: order_line_id
+    value: ""
+    disabled: true
+headers:
+  - name: Accept
+    value: application/json
+authentication: {}
+metaSortKey: -1674203246011
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

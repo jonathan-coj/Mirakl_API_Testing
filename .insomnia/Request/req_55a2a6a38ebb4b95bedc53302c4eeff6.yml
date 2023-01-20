@@ -1,0 +1,23 @@
+_id: req_55a2a6a38ebb4b95bedc53302c4eeff6
+type: Request
+parentId: fld_2cd336129fa24073942925f1355dedaa
+modified: 1674203245917
+created: 1674203245917
+url: "{{URL}}/api/products/export"
+name: P13 - Export all products
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+authentication: {}
+metaSortKey: -1674203245917
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

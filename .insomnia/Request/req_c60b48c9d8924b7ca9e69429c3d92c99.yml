@@ -1,0 +1,28 @@
+_id: req_c60b48c9d8924b7ca9e69429c3d92c99
+type: Request
+parentId: fld_0846b43d860e424283801c4ec99cb85d
+modified: 1674203246127
+created: 1674203246127
+url: "{{URL}}/api/orders/:order_id/lines/:line/close_incident"
+name: OR63 - Close an incident on an order line
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |
+    {
+      "reason_code": "8"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1674203246127
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

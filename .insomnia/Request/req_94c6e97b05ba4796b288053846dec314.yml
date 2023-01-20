@@ -1,0 +1,37 @@
+_id: req_94c6e97b05ba4796b288053846dec314
+type: Request
+parentId: fld_65955f699103420b9eb6c368e09779b1
+modified: 1674203246448
+created: 1674203246448
+url: "{{URL}}/api/customer/groups"
+name: CG01 - Create or update customer groups
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |
+    {
+        "customer_groups": [
+            {
+                "id": "group-id-1",
+                "label": "Customer group",
+                "description": "This is a customer group",
+                "active": true
+            }
+        ]
+    }
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1674203246448
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

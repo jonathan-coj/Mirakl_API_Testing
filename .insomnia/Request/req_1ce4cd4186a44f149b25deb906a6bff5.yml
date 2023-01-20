@@ -1,0 +1,29 @@
+_id: req_1ce4cd4186a44f149b25deb906a6bff5
+type: Request
+parentId: fld_2cd336129fa24073942925f1355dedaa
+modified: 1674203245875
+created: 1674203245875
+url: "{{URL}}/api/products"
+name: P31 - Get products for a list of product references
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: product_references
+    value: ""
+    disabled: false
+  - name: products
+    value: ""
+    disabled: true
+headers:
+  - name: Accept
+    value: application/json
+authentication: {}
+metaSortKey: -1674203245875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

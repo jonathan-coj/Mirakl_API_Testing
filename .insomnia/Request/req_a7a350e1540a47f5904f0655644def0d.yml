@@ -1,0 +1,39 @@
+_id: req_a7a350e1540a47f5904f0655644def0d
+type: Request
+parentId: fld_2cd336129fa24073942925f1355dedaa
+modified: 1674203245873
+created: 1674203245873
+url: "{{URL}}/api/products/imports"
+name: P41 - Import products to the operator information system
+description: ""
+method: POST
+body:
+  params:
+    - type: file
+      name: file
+      disabled: true
+      fileName: null
+    - type: text
+      name: operator_format
+      disabled: true
+      value: null
+    - type: text
+      name: shop
+      disabled: true
+      value: null
+  mimeType: multipart/form-data
+parameters: []
+headers:
+  - name: Accept
+    value: application/json
+  - name: Content-Type
+    value: multipart/form-data
+authentication: {}
+metaSortKey: -1674203245873
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
